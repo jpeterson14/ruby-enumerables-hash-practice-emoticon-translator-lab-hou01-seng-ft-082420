@@ -18,7 +18,7 @@ def get_japanese_emoticon(file_path,emoticon)
     if value[:english] == emoticon
       return value[:japanese]
     else
-    return sorry_message
+     sorry_message
 end
 end
 end 
